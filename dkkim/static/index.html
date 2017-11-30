@@ -93,6 +93,27 @@
       </div>
     </section>
 
+    <!-- 게시판 -->
+    <section class="testimonials">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <h2 class="mb-2 text-center"><strong>게시판</strong></h2><br>
+            {% for x in post %}
+              <div class="showcase-text">
+                <table width="100%" border="1">
+                  <tr><td>
+                    <a href="{% url 'main_detail' x.pk %}"><h4 class="post-title"> {{ x.title }}</h4></a>
+                       작성: {{ x.posted_at }}, 수정: {{ x.edited_at }}
+                  </td></tr>
+                </table><br>
+              </div>
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+    </section>
+
     <!-- Image Showcases -->
     <section class="showcase">
       <div class="container-fluid p-0">

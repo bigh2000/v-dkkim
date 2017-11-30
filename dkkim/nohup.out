@@ -331,3 +331,230 @@ Not Found: /img/bg-showcase-3.jpg
 [30/Nov/2017 13:15:30] "GET /static/https%3A/fonts.googleapis.com/css%3Ffamily%3DLato%3A300%2C400%2C700%2C300italic%2C400italic%2C700italic HTTP/1.1" 404 1882
 [30/Nov/2017 13:15:34] "GET / HTTP/1.1" 200 9666
 [30/Nov/2017 13:15:34] "GET /static/https%3A/fonts.googleapis.com/css%3Ffamily%3DLato%3A300%2C400%2C700%2C300italic%2C400italic%2C700italic HTTP/1.1" 404 1882
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 30, 2017 - 13:07:57
+Django version 1.11.7, using settings 'dkkim.settings'
+Starting development server at http://0.0.0.0:33333/
+Quit the server with CONTROL-C.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 30, 2017 - 13:17:31
+Django version 1.11.7, using settings 'dkkim.settings'
+Starting development server at http://0.0.0.0:33333/
+Quit the server with CONTROL-C.
+[30/Nov/2017 13:18:35] "GET /admin/ HTTP/1.1" 200 3426
+[30/Nov/2017 13:18:35] "GET /static/admin/css/base.css HTTP/1.1" 304 0
+[30/Nov/2017 13:18:35] "GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+[30/Nov/2017 13:18:35] "GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+[30/Nov/2017 13:18:35] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 304 0
+[30/Nov/2017 13:18:35] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 304 0
+[30/Nov/2017 13:18:35] "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 304 0
+[30/Nov/2017 13:18:35] "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+[30/Nov/2017 13:18:35] "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+[30/Nov/2017 13:18:36] "GET /admin/main/post/ HTTP/1.1" 200 3372
+[30/Nov/2017 13:18:36] "GET /static/admin/css/changelists.css HTTP/1.1" 200 6170
+[30/Nov/2017 13:18:36] "GET /static/admin/js/core.js HTTP/1.1" 200 7976
+[30/Nov/2017 13:18:36] "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 363
+[30/Nov/2017 13:18:36] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 6591
+[30/Nov/2017 13:18:36] "GET /admin/jsi18n/ HTTP/1.1" 200 8296
+[30/Nov/2017 13:18:36] "GET /static/admin/js/urlify.js HTTP/1.1" 200 8186
+[30/Nov/2017 13:18:36] "GET /static/admin/js/actions.js HTTP/1.1" 200 6501
+[30/Nov/2017 13:18:36] "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1538
+[30/Nov/2017 13:18:36] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 258648
+[30/Nov/2017 13:18:36] "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 128820
+[30/Nov/2017 13:18:36] "GET /static/admin/img/search.svg HTTP/1.1" 200 458
+[30/Nov/2017 13:18:36] "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+[30/Nov/2017 13:18:43] "GET /admin/main/post/add/ HTTP/1.1" 200 5107
+[30/Nov/2017 13:18:43] "GET /static/admin/css/forms.css HTTP/1.1" 200 8173
+[30/Nov/2017 13:18:43] "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 495
+[30/Nov/2017 13:18:43] "GET /static/admin/js/change_form.js HTTP/1.1" 200 712
+[30/Nov/2017 13:18:43] "GET /admin/jsi18n/ HTTP/1.1" 200 8296
+[30/Nov/2017 13:18:43] "GET /static/admin/css/widgets.css HTTP/1.1" 200 10340
+[30/Nov/2017 13:19:47] "POST /admin/main/post/add/ HTTP/1.1" 302 0
+[30/Nov/2017 13:19:47] "GET /admin/main/post/ HTTP/1.1" 200 5226
+[30/Nov/2017 13:19:47] "GET /admin/jsi18n/ HTTP/1.1" 200 8296
+[30/Nov/2017 13:19:47] "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 30, 2017 - 13:18:28
+Django version 1.11.7, using settings 'dkkim.settings'
+Starting development server at http://0.0.0.0:33333/
+Quit the server with CONTROL-C.
+Unhandled exception in thread started by <function check_errors.<locals>.wrapper at 0x7f951ceaf488>
+Traceback (most recent call last):
+  File "/home/bigh2000/public_html/v-dkkim/lib/python3.5/site-packages/django/utils/autoreload.py", line 228, in wrapper
+    fn(*args, **kwargs)
+  File "/home/bigh2000/public_html/v-dkkim/lib/python3.5/site-packages/django/core/management/commands/runserver.py", line 125, in inner_run
+    self.check(display_num_errors=True)
+  File "/home/bigh2000/public_html/v-dkkim/lib/python3.5/site-packages/django/core/management/base.py", line 359, in check
+    include_deployment_checks=include_deployment_checks,
+  File "/home/bigh2000/public_html/v-dkkim/lib/python3.5/site-packages/django/core/management/base.py", line 346, in _run_checks
+    return checks.run_checks(**kwargs)
+  File "/home/bigh2000/public_html/v-dkkim/lib/python3.5/site-packages/django/core/checks/registry.py", line 81, in run_checks
+    new_errors = check(app_configs=app_configs)
+  File "/home/bigh2000/public_html/v-dkkim/lib/python3.5/site-packages/django/core/checks/urls.py", line 16, in check_url_config
+    return check_resolver(resolver)
+  File "/home/bigh2000/public_html/v-dkkim/lib/python3.5/site-packages/django/core/checks/urls.py", line 26, in check_resolver
+    return check_method()
+  File "/home/bigh2000/public_html/v-dkkim/lib/python3.5/site-packages/django/urls/resolvers.py", line 254, in check
+    for pattern in self.url_patterns:
+  File "/home/bigh2000/public_html/v-dkkim/lib/python3.5/site-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/bigh2000/public_html/v-dkkim/lib/python3.5/site-packages/django/urls/resolvers.py", line 405, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/home/bigh2000/public_html/v-dkkim/lib/python3.5/site-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/bigh2000/public_html/v-dkkim/lib/python3.5/site-packages/django/urls/resolvers.py", line 398, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/home/bigh2000/public_html/v-dkkim/lib/python3.5/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 986, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 969, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 958, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 673, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 665, in exec_module
+  File "<frozen importlib._bootstrap>", line 222, in _call_with_frames_removed
+  File "/home/bigh2000/public_html/v-dkkim/dkkim/dkkim/urls.py", line 18, in <module>
+    from main.views import show_main, main_detail
+ImportError: cannot import name 'main_detail'
+Performing system checks...
+
+Unhandled exception in thread started by <function check_errors.<locals>.wrapper at 0x7f5ee7d62488>
+Traceback (most recent call last):
+  File "/home/bigh2000/public_html/v-dkkim/lib/python3.5/site-packages/django/utils/autoreload.py", line 228, in wrapper
+    fn(*args, **kwargs)
+  File "/home/bigh2000/public_html/v-dkkim/lib/python3.5/site-packages/django/core/management/commands/runserver.py", line 125, in inner_run
+    self.check(display_num_errors=True)
+  File "/home/bigh2000/public_html/v-dkkim/lib/python3.5/site-packages/django/core/management/base.py", line 359, in check
+    include_deployment_checks=include_deployment_checks,
+  File "/home/bigh2000/public_html/v-dkkim/lib/python3.5/site-packages/django/core/management/base.py", line 346, in _run_checks
+    return checks.run_checks(**kwargs)
+  File "/home/bigh2000/public_html/v-dkkim/lib/python3.5/site-packages/django/core/checks/registry.py", line 81, in run_checks
+    new_errors = check(app_configs=app_configs)
+  File "/home/bigh2000/public_html/v-dkkim/lib/python3.5/site-packages/django/core/checks/urls.py", line 16, in check_url_config
+    return check_resolver(resolver)
+  File "/home/bigh2000/public_html/v-dkkim/lib/python3.5/site-packages/django/core/checks/urls.py", line 26, in check_resolver
+    return check_method()
+  File "/home/bigh2000/public_html/v-dkkim/lib/python3.5/site-packages/django/urls/resolvers.py", line 254, in check
+    for pattern in self.url_patterns:
+  File "/home/bigh2000/public_html/v-dkkim/lib/python3.5/site-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/bigh2000/public_html/v-dkkim/lib/python3.5/site-packages/django/urls/resolvers.py", line 405, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/home/bigh2000/public_html/v-dkkim/lib/python3.5/site-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/bigh2000/public_html/v-dkkim/lib/python3.5/site-packages/django/urls/resolvers.py", line 398, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/home/bigh2000/public_html/v-dkkim/lib/python3.5/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 986, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 969, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 958, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 673, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 665, in exec_module
+  File "<frozen importlib._bootstrap>", line 222, in _call_with_frames_removed
+  File "/home/bigh2000/public_html/v-dkkim/dkkim/dkkim/urls.py", line 18, in <module>
+    from main.views import show_main, main_detail
+ImportError: cannot import name 'main_detail'
+Performing system checks...
+
+Unhandled exception in thread started by <function check_errors.<locals>.wrapper at 0x7f7e8ac75488>
+Traceback (most recent call last):
+  File "/home/bigh2000/public_html/v-dkkim/lib/python3.5/site-packages/django/utils/autoreload.py", line 228, in wrapper
+    fn(*args, **kwargs)
+  File "/home/bigh2000/public_html/v-dkkim/lib/python3.5/site-packages/django/core/management/commands/runserver.py", line 125, in inner_run
+    self.check(display_num_errors=True)
+  File "/home/bigh2000/public_html/v-dkkim/lib/python3.5/site-packages/django/core/management/base.py", line 359, in check
+    include_deployment_checks=include_deployment_checks,
+  File "/home/bigh2000/public_html/v-dkkim/lib/python3.5/site-packages/django/core/management/base.py", line 346, in _run_checks
+    return checks.run_checks(**kwargs)
+  File "/home/bigh2000/public_html/v-dkkim/lib/python3.5/site-packages/django/core/checks/registry.py", line 81, in run_checks
+    new_errors = check(app_configs=app_configs)
+  File "/home/bigh2000/public_html/v-dkkim/lib/python3.5/site-packages/django/core/checks/urls.py", line 16, in check_url_config
+    return check_resolver(resolver)
+  File "/home/bigh2000/public_html/v-dkkim/lib/python3.5/site-packages/django/core/checks/urls.py", line 26, in check_resolver
+    return check_method()
+  File "/home/bigh2000/public_html/v-dkkim/lib/python3.5/site-packages/django/urls/resolvers.py", line 254, in check
+    for pattern in self.url_patterns:
+  File "/home/bigh2000/public_html/v-dkkim/lib/python3.5/site-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/bigh2000/public_html/v-dkkim/lib/python3.5/site-packages/django/urls/resolvers.py", line 405, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/home/bigh2000/public_html/v-dkkim/lib/python3.5/site-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/bigh2000/public_html/v-dkkim/lib/python3.5/site-packages/django/urls/resolvers.py", line 398, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/home/bigh2000/public_html/v-dkkim/lib/python3.5/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 986, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 969, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 958, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 673, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 665, in exec_module
+  File "<frozen importlib._bootstrap>", line 222, in _call_with_frames_removed
+  File "/home/bigh2000/public_html/v-dkkim/dkkim/dkkim/urls.py", line 18, in <module>
+    from main.views import show_main, main_detail
+ImportError: cannot import name 'main_detail'
+Performing system checks...
+
+Unhandled exception in thread started by <function check_errors.<locals>.wrapper at 0x7f235b6d9488>
+Traceback (most recent call last):
+  File "/home/bigh2000/public_html/v-dkkim/lib/python3.5/site-packages/django/utils/autoreload.py", line 228, in wrapper
+    fn(*args, **kwargs)
+  File "/home/bigh2000/public_html/v-dkkim/lib/python3.5/site-packages/django/core/management/commands/runserver.py", line 125, in inner_run
+    self.check(display_num_errors=True)
+  File "/home/bigh2000/public_html/v-dkkim/lib/python3.5/site-packages/django/core/management/base.py", line 359, in check
+    include_deployment_checks=include_deployment_checks,
+  File "/home/bigh2000/public_html/v-dkkim/lib/python3.5/site-packages/django/core/management/base.py", line 346, in _run_checks
+    return checks.run_checks(**kwargs)
+  File "/home/bigh2000/public_html/v-dkkim/lib/python3.5/site-packages/django/core/checks/registry.py", line 81, in run_checks
+    new_errors = check(app_configs=app_configs)
+  File "/home/bigh2000/public_html/v-dkkim/lib/python3.5/site-packages/django/core/checks/urls.py", line 16, in check_url_config
+    return check_resolver(resolver)
+  File "/home/bigh2000/public_html/v-dkkim/lib/python3.5/site-packages/django/core/checks/urls.py", line 26, in check_resolver
+    return check_method()
+  File "/home/bigh2000/public_html/v-dkkim/lib/python3.5/site-packages/django/urls/resolvers.py", line 254, in check
+    for pattern in self.url_patterns:
+  File "/home/bigh2000/public_html/v-dkkim/lib/python3.5/site-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/bigh2000/public_html/v-dkkim/lib/python3.5/site-packages/django/urls/resolvers.py", line 405, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/home/bigh2000/public_html/v-dkkim/lib/python3.5/site-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/bigh2000/public_html/v-dkkim/lib/python3.5/site-packages/django/urls/resolvers.py", line 398, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/home/bigh2000/public_html/v-dkkim/lib/python3.5/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 986, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 969, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 958, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 673, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 665, in exec_module
+  File "<frozen importlib._bootstrap>", line 222, in _call_with_frames_removed
+  File "/home/bigh2000/public_html/v-dkkim/dkkim/dkkim/urls.py", line 18, in <module>
+    from main.views import show_main, main_detail
+ImportError: cannot import name 'main_detail'
+Performing system checks...
+
+[30/Nov/2017 13:23:51] "GET / HTTP/1.1" 200 10405
+[30/Nov/2017 13:23:51] "GET /static/vendor/simple-line-icons/css/simple-line-icons.css HTTP/1.1" 304 0
+[30/Nov/2017 13:23:51] "GET /static/css/landing-page.min.css HTTP/1.1" 304 0
+[30/Nov/2017 13:23:51] "GET /static/vendor/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[30/Nov/2017 13:23:51] "GET /static/vendor/font-awesome/css/font-awesome.min.css HTTP/1.1" 304 0
+[30/Nov/2017 13:23:51] "GET /static/https%3A/fonts.googleapis.com/css%3Ffamily%3DLato%3A300%2C400%2C700%2C300italic%2C400italic%2C700italic HTTP/1.1" 404 1882
+[30/Nov/2017 13:23:51] "GET /static/vendor/jquery/jquery.min.js HTTP/1.1" 304 0
+[30/Nov/2017 13:23:51] "GET /static/vendor/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 304 0
+[30/Nov/2017 13:23:51] "GET /static/img/testimonials-1.jpg HTTP/1.1" 304 0
+[30/Nov/2017 13:23:51] "GET /static/img/testimonials-2.jpg HTTP/1.1" 304 0
+[30/Nov/2017 13:23:51] "GET /static/img/testimonials-3.jpg HTTP/1.1" 304 0
+[30/Nov/2017 13:23:51] "GET /static/vendor/simple-line-icons/fonts/Simple-Line-Icons.woff2?v=2.4.0 HTTP/1.1" 304 0
+[30/Nov/2017 13:23:51] "GET /static/vendor/font-awesome/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 304 0
+[30/Nov/2017 13:23:51] "GET /static/img/bg-showcase-1.jpg HTTP/1.1" 304 0
+[30/Nov/2017 13:23:51] "GET /static/img/bg-showcase-3.jpg HTTP/1.1" 304 0
+[30/Nov/2017 13:23:51] "GET /static/img/bg-masthead.jpg HTTP/1.1" 304 0
+[30/Nov/2017 13:23:51] "GET /static/img/bg-showcase-2.jpg HTTP/1.1" 304 0
+[30/Nov/2017 13:23:54] "GET /1/ HTTP/1.1" 200 63
